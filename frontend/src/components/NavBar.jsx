@@ -11,7 +11,7 @@ const NavBar = () => {
   return (
     <>
       <nav>
-        <header className="flex justify-between items-center text-white py-6 px-6 md:px-24 bg-darkBlue drop-shadow-md">
+        <header className="flex justify-between items-center text-white py-6 px-6 md:px-20 bg-darkBlue drop-shadow-md">
           <div className="flex justify-center items-center gap-1.5">
             <img src="/logo.png" alt="Claroid" />
             <h1 className="cursor-pointer">Clariod</h1>
