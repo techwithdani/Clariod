@@ -5,21 +5,23 @@ const HeroSection = () => {
   return (
     <>
       <section>
-        <div className="bg-darkBlue h-auto w-full text-white">
-          <div>
-            <h1>Discover The Vision</h1>
+        <div className="bg-darkBlue text-white text-balance w-full pt-10">
+          <div className="w-72 px-8">
+            <h1 className="text-4xl font-semibold">Discover The Vision</h1>
           </div>
-          <div>
-            <p>
+          <div className="w-96 px-8 mt-6">
+            <p className="text-[1.13rem]">
               Welcome to Clariod, where innovation meets excellence. We are
               dedicated to providing cutting-edge solutions that streamline your
               processes & elevate your business.
             </p>
-            <button>Learn More</button>
+            <div className="mt-5">
+              <button>Learn More</button>
+            </div>
           </div>
-          <div>
-            <img src={heroImg1} alt="Hero Img 1" className="h-auto w-full" />
-            <img src={heroImg2} alt="Hero Img 2" className="h-auto w-full" />
+          <div className="mt-10">
+            <img src={heroImg1} alt="Hero Img 1" />
+            <img src={heroImg2} alt="Hero Img 2" />
           </div>
         </div>
       </section>
