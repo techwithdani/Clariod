@@ -6,11 +6,11 @@ const HeroSection = () => {
     <>
       <section>
         <div className="bg-darkBlue text-white text-balance w-full pt-8 md:flex flex-wrap justify-evenly">
-          <div className="w-96 pl-8 mt-6 md:pl-13 md:w-1/2 lg:w-1/2 lg:pl-21">
-            <h1 className="text-4xl font-semibold md:text-[2.70rem] lg:text-6xl">Discover The Vision</h1>
+          <div className="w-96 pl-8 mt-6 md:pl-21 md:w-1/2 lg:w-1/2 lg:pl-21">
+            <h1 className="text-4xl font-semibold md:text-[3.10rem] lg:text-7xl xl:text-7xl">Discover The Vision</h1>
           </div>
           <div className="w-96 pl-8 mt-6 md:pl-0 md:w-1/2 lg:w-1/2 lg:pl-0">
-            <p className="text-[1.13rem] lg:text-[1.40rem]">
+            <p className="text-[1.13rem] md:text-[1.40rem] lg:text-2xl xl:text-3xl">
               Welcome to Clariod, where innovation meets excellence. We are
               dedicated to providing cutting-edge solutions that streamline your
               processes & elevate your business.
