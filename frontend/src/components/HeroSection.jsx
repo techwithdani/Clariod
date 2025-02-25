@@ -6,19 +6,19 @@ const HeroSection = () => {
   return (
     <>
       <section>
-        <div className="bg-darkBlue text-white text-balance w-full pt-8 md:flex flex-wrap justify-evenly">
-          <div className="w-96 pl-8 mt-6 md:w-1/2 md:pl-17 lg:pl-29 xl:pr-21 2xl:pr-52">
+        <div className="bg-darkBlue text-white text-balance w-full pt-6 md:flex flex-wrap justify-evenly">
+          <div className="w-96 pl-8 md:w-1/2 md:pl-17 lg:pl-29 xl:pr-21 2xl:pr-52">
             <h1 className="text-4xl font-semibold md:text-[3.10rem] lg:text-6xl xl:text-7xl">
               Discover The Vision
             </h1>
           </div>
-          <div className="w-96 pl-8 mt-6 md:w-1/2 md:pl-0 md:pr-21 xl:pr-39 2xl:pr-52">
+          <div className="w-96 mt-1 pl-8 md:w-1/2 md:pl-0 md:pr-21 xl:pr-39 2xl:pr-52">
             <p className="text-[1.13rem] md:text-[1.30rem] lg:text-[1.40rem] xl:text-2xl">
               Welcome to Clariod, where innovation meets excellence. We are
               dedicated to providing cutting-edge solutions that streamline your
               processes & elevate your business.
             </p>
-            <div className="mt-8">
+            <div className="mt-12">
               <Button text={"Learn More"} />
             </div>
           </div>
