@@ -9,7 +9,7 @@ const TechnologySection = () => {
           <div className="pl-8 pt-10">
             <p className="text-2xl">Innovative Solutions</p>
           </div>
-          <div className="pt-4 pl-8 text-balance">
+          <div className="pt-4 pl-8 text-balance text-[1.1rem] pr-10">
             <p>
               Our technology stack is designed to meet the diverse needs of
               modern businesses. From cloud-based applications to AI-driven
