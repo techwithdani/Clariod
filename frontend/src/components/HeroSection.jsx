@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <>
       <section>
-        <div className="bg-darkBlue text-white text-balance w-full pt-6 md:flex flex-wrap justify-evenly">
+        <div className="bg-darkBlue text-white text-balance pt-6 md:flex flex-wrap justify-evenly">
           <div className="w-96 pl-8 md:w-1/2 md:pl-17 lg:pl-29 xl:pr-21 2xl:pr-52">
             <h1 className="text-4xl font-semibold md:text-[3.10rem] lg:text-6xl xl:text-7xl">
               Discover The Vision
