@@ -1,3 +1,11 @@
+import TechnologySectionImg from "../components/TechnologySectionImg";
+import techImg1 from "../assets/techImg1.jpg";
+import techImg2 from "../assets/techImg2.jpg";
+import techImg3 from "../assets/techImg3.jpg";
+import techImg4 from "../assets/techImg4.jpg";
+import techImg5 from "../assets/techImg5.jpg";
+import techImg6 from "../assets/techImg6.jpg";
+
 const TechnologySection = () => {
   return (
     <>
@@ -16,6 +24,39 @@ const TechnologySection = () => {
               analytics, we leverage the latest technologies to deliver seamless
               and effective solutions.
             </p>
+          </div>
+          <div className="bg-white h-0.5 mt-6"></div>
+          <div className="mt-6">
+            <TechnologySectionImg
+              Image={techImg1}
+              title={"Cloud Services"}
+              subTitle={"Scalable Solutions"}
+            />
+            <TechnologySectionImg
+              Image={techImg2}
+              title={"AI Integration"}
+              subTitle={"Smart Automation"}
+            />
+            <TechnologySectionImg
+              Image={techImg3}
+              title={"Data Security"}
+              subTitle={"Protecting Your Information"}
+            />
+            <TechnologySectionImg
+              Image={techImg4}
+              title={"Mobile Optimization"}
+              subTitle={"On-the-Go Access"}
+            />
+            <TechnologySectionImg
+              Image={techImg5}
+              title={"Customer Support"}
+              subTitle={"Dedicated Assistance"}
+            />
+            <TechnologySectionImg
+              Image={techImg6}
+              title={"Scalability"}
+              subTitle={"Growing with You"}
+            />
           </div>
         </div>
       </section>
