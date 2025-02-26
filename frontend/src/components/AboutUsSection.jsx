@@ -5,14 +5,14 @@ const AboutUsSection = () => {
     <>
       <section>
         <div className="bg-darkBlue text-white">
-          <div className="pt-15 pl-8">
-            <h1 className="text-4xl">About Us</h1>
+          <div className="pt-15 pl-8 md:pl-17 lg:pl-29">
+            <h1 className="text-4xl font-semibold">About Us</h1>
           </div>
-          <div className="pt-12 pl-8">
+          <div className="pt-10 pl-8 md:pl-17 lg:pl-29">
             <p className="text-2xl">Our Story</p>
           </div>
-          <div className="pl-8 pt-4 text-[1.1rem]">
-            <div>
+          <div className="pl-8 pt-6 text-[1.1rem] text-balance md:pl-17 lg:pl-29">
+            <div className="pr-10 md:pr-30">
               <p>
                 Clariod is a SaaS startup committed to revolutionizing how
                 businesses operate. We pride ourselves on delivering intuitive
@@ -21,7 +21,7 @@ const AboutUsSection = () => {
                 tools they need to thrive in today&apos;s business landscape.
               </p>
             </div>
-            <div className="mt-6">
+            <div className="mt-6 pr-10 md:pr-30">
               <p>
                 Driven by a passion for innovation, we continuously strive to
                 exceed client expectations by offering scalable, efficient, and
@@ -31,7 +31,7 @@ const AboutUsSection = () => {
               </p>
             </div>
           </div>
-          <div className="pl-8 pt-10">
+          <div className="pl-8 pt-10 md:pl-17 lg:pl-29">
             <Button text={"Learn More"} />
           </div>
         </div>
