@@ -2,14 +2,14 @@ const TechnologySection = () => {
   return (
     <>
       <section>
-        <div>
-          <div>
-            <h1>Technology</h1>
+        <div className="bg-darkBlue text-white">
+          <div className="pt-15 pl-8">
+            <h1 className="text-4xl font-semibold">Technology</h1>
           </div>
-          <div>
-            <p>Innovative Solutions</p>
+          <div className="pl-8 pt-10">
+            <p className="text-2xl">Innovative Solutions</p>
           </div>
-          <div>
+          <div className="pt-4 pl-8 text-balance">
             <p>
               Our technology stack is designed to meet the diverse needs of
               modern businesses. From cloud-based applications to AI-driven
