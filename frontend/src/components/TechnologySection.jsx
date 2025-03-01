@@ -11,13 +11,13 @@ const TechnologySection = () => {
     <>
       <section>
         <div className="bg-darkBlue text-white">
-          <div className="pt-15 pl-8">
+          <div className="pt-15 pl-8 md:pl-17">
             <h1 className="text-4xl font-semibold">Technology</h1>
           </div>
-          <div className="pl-8 pt-10">
+          <div className="pl-8 pt-10 md:pl-17">
             <p className="text-2xl">Innovative Solutions</p>
           </div>
-          <div className="pt-4 pl-8 text-balance text-[1.1rem] pr-10">
+          <div className="pt-4 pl-8 text-balance text-[1.1rem] pr-10 md:pl-17">
             <p>
               Our technology stack is designed to meet the diverse needs of
               modern businesses. From cloud-based applications to AI-driven
@@ -25,7 +25,9 @@ const TechnologySection = () => {
               and effective solutions.
             </p>
           </div>
-          <div className="bg-white h-0.5 mt-6"></div>
+          <div className=" flex justify-center items-center">
+            <div className="bg-white h-0.5 mt-6 w-[26rem]"></div>
+          </div>
           <div className="mt-6">
             <TechnologySectionImg
               Image={techImg1}
