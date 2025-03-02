@@ -29,37 +29,37 @@ const KeyBenefitsSection = () => {
   return (
     <>
       <section>
-        <div>
-          <div>
-            <h1>Key Benefits</h1>
+        <div className="bg-darkBlue text-white">
+          <div className="pt-15 pl-8">
+            <h1 className="text-4xl font-semibold">Key Benefits</h1>
           </div>
-          <div>
-            <p>Experience the following benefits with Claroid:</p>
+          <div className="mt-4 pl-8">
+            <p className="text-2xl">
+              Experience the following benefits with Claroid:
+            </p>
           </div>
           <HorizontalLine />
-          <div>
-            <KeyBenefitsType
-              image={KeyBenefitsImg1}
-              title={data.customization.title}
-              subTitle={data.customization.subTitle}
-              paragraph={data.customization.paragraph}
-            />
-            <HorizontalLine />
-            <KeyBenefitsType
-              image={KeyBenefitsImg2}
-              title={data.integration.title}
-              subTitle={data.integration.subTitle}
-              paragraph={data.integration.paragraph}
-            />
-            <HorizontalLine />
-            <KeyBenefitsType
-              image={KeyBenefitsImg3}
-              title={data.analytics.title}
-              subTitle={data.analytics.subTitle}
-              paragraph={data.analytics.paragraph}
-            />
-            <HorizontalLine />
-          </div>
+          <KeyBenefitsType
+            image={KeyBenefitsImg1}
+            title={data.customization.title}
+            subTitle={data.customization.subTitle}
+            paragraph={data.customization.paragraph}
+          />
+          <HorizontalLine />
+          <KeyBenefitsType
+            image={KeyBenefitsImg2}
+            title={data.integration.title}
+            subTitle={data.integration.subTitle}
+            paragraph={data.integration.paragraph}
+          />
+          <HorizontalLine />
+          <KeyBenefitsType
+            image={KeyBenefitsImg3}
+            title={data.analytics.title}
+            subTitle={data.analytics.subTitle}
+            paragraph={data.analytics.paragraph}
+          />
+          <HorizontalLine />
         </div>
       </section>
     </>

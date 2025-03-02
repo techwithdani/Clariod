@@ -1,16 +1,16 @@
 const KeyBenefitsType = ({ image, title, subTitle, paragraph }) => {
   return (
     <>
-      <div>
-        <div>
+      <div className="pl-8 mt-6">
+        <div className="flex items-center gap-3">
           <img src={image} alt={title} />
-          <h3>{title}</h3>
+          <h3 className="text-2xl">{title}</h3>
         </div>
-        <div>
-          <p>{subTitle}</p>
+        <div className="mt-8">
+          <p className="text-[1.2rem]">{subTitle}</p>
         </div>
-        <div>
-          <p>{paragraph}</p>
+        <div className="mt-4 pr-10">
+          <p className="text-[1.1rem]">{paragraph}</p>
         </div>
       </div>
     </>
