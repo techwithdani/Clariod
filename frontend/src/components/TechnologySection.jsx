@@ -5,6 +5,7 @@ import techImg3 from "../assets/techImg3.jpg";
 import techImg4 from "../assets/techImg4.jpg";
 import techImg5 from "../assets/techImg5.jpg";
 import techImg6 from "../assets/techImg6.jpg";
+import HorizontalLine from "./HorizontalLine";
 
 const TechnologySection = () => {
   return (
@@ -25,9 +26,7 @@ const TechnologySection = () => {
               and effective solutions.
             </p>
           </div>
-          <div className="flex justify-center items-center">
-            <div className="bg-white h-0.5 mt-10 w-full"></div>
-          </div>
+          <HorizontalLine />
           <div className="pl-8 mt-6 sm:flex flex-wrap items-center gap-4 md:pl-17 lg:pl-29 xl:pr-51">
             <TechnologySectionImg
               Image={techImg1}
