@@ -5,20 +5,20 @@ const QuoteSection = () => {
   return (
     <>
       <section>
-        <div>
-          <div>
-            <h1>Quote</h1>
+        <div className="bg-darkBlue text-white">
+          <div className="pt-15 pl-8">
+            <h1 className="text-4xl font-semibold">Quote</h1>
           </div>
           <HorizontalLine />
-          <div>
-            <p>
+          <div className="mt-8 pl-8 pr-10">
+            <p className="text-[1.2rem]">
               &quot;Clariod has truly transformed our business operations. Their
               innovative software solutions have increased our efficiency and
               productivity, allowing us to focus on what truly matters – driving
               growth and success.&quot;
             </p>
           </div>
-          <div>
+          <div className="pl-8 mt-6 flex items-center gap-3">
             <img src={quoteImg} alt="Quote Image" />
             <p>Rona El, CEO & Vailu</p>
           </div>
