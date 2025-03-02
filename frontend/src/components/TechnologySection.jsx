@@ -17,7 +17,7 @@ const TechnologySection = () => {
           <div className="pl-8 pt-10 md:pl-17 lg:pl-29">
             <p className="text-2xl">Innovative Solutions</p>
           </div>
-          <div className="pt-4 pl-8 text-balance text-[1.1rem] pr-10 md:pl-17 lg:pl-29 lg:text-[1.2rem]">
+          <div className="pt-4 pl-8 text-balance text-[1.1rem] pr-10 md:pl-17 md:pr-32 lg:pl-29 lg:text-[1.2rem] lg:pr-50 xl:pr-96 xl:text-[1.3rem]">
             <p>
               Our technology stack is designed to meet the diverse needs of
               modern businesses. From cloud-based applications to AI-driven
@@ -28,7 +28,7 @@ const TechnologySection = () => {
           <div className="flex justify-center items-center">
             <div className="bg-white h-0.5 mt-10 w-full"></div>
           </div>
-          <div className="mt-6 md:flex flex-wrap items-center">
+          <div className="pl-8 mt-6 sm:flex flex-wrap items-center gap-4 md:pl-17 lg:pl-29 xl:pr-51">
             <TechnologySectionImg
               Image={techImg1}
               title={"Cloud Services"}
