@@ -2,25 +2,27 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div>
-          <div>
-            <p>Claroid</p>
+        <div className="bg-darkBlue text-white">
+          <div className="pl-8 pt-10">
+            <p className="text-3xl font-semibold">Claroid</p>
           </div>
-          <div>
-            <p>Discover The Vision</p>
+          <div className="pl-8 mt-2">
+            <p className="text-[1.3rem]">Discover The Vision</p>
           </div>
-          <div>
+          <div className="pl-8 mt-6">
             <p>123-986-7653</p>
             <p>claroid@gmail.com</p>
           </div>
-          <div>
-            <p>500 Terry Francine Street, San Francisco, CA 94158</p>
+          <div className="w-55 pl-8 mt-3">
+            <p className="">
+              500 Terry Francine Street, San Francisco, CA 94158
+            </p>
           </div>
-          <div>
+          <div className="pl-8 mt-6">
             <p>Privacy Policy</p>
             <p>Accessibility Statement</p>
           </div>
-          <div>
+          <div className="pl-8 pb-5 mt-8">
             <p>© 2035 by Clariod. Powered and secured by Claroid</p>
           </div>
         </div>
