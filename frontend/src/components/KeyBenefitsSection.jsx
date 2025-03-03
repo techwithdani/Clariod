@@ -31,7 +31,7 @@ const KeyBenefitsSection = () => {
       <section>
         <div className="bg-darkBlue text-white">
           <div className="pt-15 pl-8 md:pl-17 lg:pl-29">
-            <h1 className="text-4xl font-semibold lg:text-5xl">Key Benefits</h1>
+            <h1 className="text-4xl font-semibold">Key Benefits</h1>
           </div>
           <div className="mt-8 pl-8 md:pl-17 lg:pl-29">
             <p className="text-2xl">
@@ -59,7 +59,9 @@ const KeyBenefitsSection = () => {
             subTitle={data.analytics.subTitle}
             paragraph={data.analytics.paragraph}
           />
-          <HorizontalLine />
+          <div className="mt-30">
+            <HorizontalLine />
+          </div>
         </div>
       </section>
     </>
