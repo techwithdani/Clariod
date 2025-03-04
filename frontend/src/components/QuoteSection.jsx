@@ -5,7 +5,7 @@ const QuoteSection = () => {
   return (
     <>
       <section>
-        <div className="bg-darkBlue text-white">
+        <div className="bg-darkBlue text-white lg:pt-50">
           <div className="pt-15 pl-8 md:pl-17 lg:pl-29">
             <h1 className="text-4xl font-semibold lg:text-5xl xl:text-[4rem]">Quote</h1>
           </div>
