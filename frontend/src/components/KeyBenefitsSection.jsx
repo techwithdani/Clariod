@@ -31,10 +31,10 @@ const KeyBenefitsSection = () => {
       <section>
         <div className="bg-darkBlue text-white">
           <div className="pt-15 pl-8 md:pl-17 lg:pl-29">
-            <h1 className="text-4xl font-semibold">Key Benefits</h1>
+            <h1 className="text-4xl font-semibold lg:text-5xl xl:text-[4rem]">Key Benefits</h1>
           </div>
-          <div className="mt-8 pl-8 md:pl-17 lg:pl-29">
-            <p className="text-2xl">
+          <div className="mt-15 pl-8 md:pl-17 lg:pl-29">
+            <p className="text-3xl">
               Experience the following benefits with Claroid:
             </p>
           </div>

@@ -6,7 +6,7 @@ const AboutUsSection = () => {
       <section>
         <div className="bg-darkBlue text-white">
           <div className="pt-15 pl-8 md:pl-17 lg:pl-29 xl:pl-96">
-            <h1 className="text-4xl font-semibold">About Us</h1>
+            <h1 className="text-4xl font-semibold lg:text-5xl xl:text-[4rem]">About Us</h1>
           </div>
           <div className="pt-10 pl-8 md:pl-17 lg:pl-29 xl:pl-96">
             <p className="text-2xl">Our Story</p>
