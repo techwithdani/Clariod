@@ -29,7 +29,7 @@ const TechnologySection = () => {
             </p>
           </div>
           <HorizontalLine />
-          <div className="pl-8 pr-2 mt-6 sm:flex flex-wrap items-center gap-4 md:pl-17 lg:pl-29 xl:pr-51">
+          <div className="pl-8 pr-2 mt-6 sm:flex flex-wrap items-center gap-4 md:pl-17 lg:pl-29 xl:w-[64rem]">
             <TechnologySectionImg
               Image={techImg1}
               title={"Cloud Services"}
