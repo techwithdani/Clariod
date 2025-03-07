@@ -14,12 +14,7 @@ const Menu = () => {
         <GiHamburgerMenu />
       </i>
       {isMenuOpen ? (
-        <div
-          className={`absolute top-20 left-0 w-full bg-darkBlue flex flex-col items-center gap-6 font-semibold text-lg transform transition-transform ${
-            isMenuOpen ? "opacity-100" : "opacity-0"
-          }`}
-          style={{ transition: "transform 0.3s ease, opacity 0.3s ease" }}
-        >
+        <div className="absolute top-20 left-0 w-full h-dvh bg-darkBlue flex flex-col items-center gap-6 font-semibold text-lg">
           <li className="list-none w-full text-center p-4 hover:text-lightSlateGrey transition-all cursor-pointer">
             About
           </li>
