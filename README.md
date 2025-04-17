@@ -16,5 +16,3 @@ SAAS Company Responsive Website
 ## Responsive Layout 4
 
 ![Home Page](websiteScreenshots/ResponsiveLayout4.png)
-
-Template and assets taken from wix.
