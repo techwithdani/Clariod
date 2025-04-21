@@ -1,5 +1,4 @@
 # Clariod
-SAAS Company Responsive Website
 
 ## Responsive Layout 1
 
